@@ -1,0 +1,67 @@
+.bgImg {
+    background-image: url(../assets/img/policyBg.png);
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    width: 100%;
+  }
+  .aboutBg {
+    background-image: url(../assets/img/aboutPageBg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  
+  .heroTextGradient {
+    background: linear-gradient(253.01deg, #0096ff 7.68%, #9600ff 95.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .memberImg {
+    aspect-ratio: 1/1;
+  }
+  
+  .findUsCardCss {
+    box-shadow: 0px 0px 12px 1px #f0f0f0;
+  }
+  
+  .findUsCardMumbai {
+    background: linear-gradient(135.47deg, #fff6fa 1.34%, #ffffff 100.05%);
+  }
+  
+  .findUsCardBangalore {
+    background: linear-gradient(135.47deg, #f6faff 1.34%, #ffffff 100.05%);
+  }
+  
+  .findUsCardDelhi {
+    background: linear-gradient(135.47deg, #fffdf6 1.34%, #ffffff 100.05%);
+  }
+  
+  .BackgroundColour {
+    background: linear-gradient(
+      180deg,
+      rgba(253, 253, 253, 0.59) 0.63%,
+      rgba(248, 250, 253, 0.59) 26.57%,
+      rgba(252, 226, 241, 0.59) 100%
+    );
+  }
+
+  .BackgroundColourSection1 {
+    background: linear-gradient(
+      90deg,
+      #F1F6FF 35%,
+      /* rgba(248, 250, 253, 0.59) 26.57%, */
+      #FFFFFF 100%
+    );
+  }
+  @media (min-width: 0px) and (max-width: 600px) {
+    .bgImg {
+      background-image: url(../assets/img/basicPolicyBanner.png);
+      background-size: cover;
+      background-position: center;
+      height: 350px;
+      width: 100%
+    }
+  }
+  

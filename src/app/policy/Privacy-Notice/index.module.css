@@ -1,0 +1,33 @@
+.bgImg {
+  background-image: url(../../assets/img/policyBg.png);
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  width: 100%;
+}
+
+.heroTextGradient {
+  background: linear-gradient(253.01deg, #0096ff 7.68%, #9600ff 95.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .bgImg {
+    background-image: url(../../assets/img/basicPolicyBanner.png);
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bgImg {
+    background-image: url(../../assets/img/basicPolicyBanner.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+  }
+}

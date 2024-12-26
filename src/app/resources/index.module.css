@@ -1,0 +1,62 @@
+.bgImg {
+  background-image: url(../assets/img/policyBg.png);
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  width: 100%;
+}
+
+.heroTextGradient {
+  background: linear-gradient(253.01deg, #0096ff 7.68%, #9600ff 95.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .bgImg {
+    background-image: url(../assets/img/basicPolicyBanner.png);
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 650px) {
+  .bgImg {
+    background-image: url(../assets/img/basicPolicyBanner.png);
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 840px) {
+  .bgImg {
+    background-image: url(../assets/img/basicPolicyBanner.png);
+    background-size: cover;
+    background-position: center;
+    height: 290px;
+    width: 100%;
+  }
+}
+
+.policyCardsBgGradient {
+  background: linear-gradient(
+    180deg,
+    rgba(253, 253, 253, 0.59) 0.63%,
+    rgba(248, 250, 253, 0.59) 26.57%,
+    rgba(252, 226, 241, 0.59) 100%
+  );
+}
+
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  .bgImg {
+    background-image: url(../assets/img/resourcesHeroBgMobile.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+} */

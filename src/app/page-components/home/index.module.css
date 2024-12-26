@@ -1,0 +1,69 @@
+.bgImg {
+  background-image: url(../../assets/img/homeHeroBgImg.png);
+  background-size: cover;
+  background-position: center;
+  height: 606px; /* h-64 in Tailwind (4rem * 16) */
+  width: 100%;
+}
+
+.textGradient {
+  background: linear-gradient(
+    90deg,
+    #4294f7 0%,
+    #8a1af5 18.52%,
+    #ea3394 37.05%,
+    #f19c38 56.13%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statusTextGradient {
+  background: linear-gradient(139.79deg, #5e77e7 19.65%, #8e61dd 76.91%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+  .bgImg {
+    background-image: url(../../assets/img/homeHeroBgImgMobile.png);
+    height: 640px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  .bgImg {
+    background-image: url(../../assets/img/homeHeroBgImgMobile.png);
+    height: 615px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 780px) {
+  .bgImg {
+    background-image: url(../../assets/img/homeHeroBgImgMobile.png);
+    height: 600px;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 840px) {
+  .bgImg {
+    background-image: url(../../assets/img/homeHeroBgImgMobile.png);
+    height: 570px;
+  }
+}
+
+@media (min-width: 841px) and (max-width: 1024px) {
+  .bgImg {
+    background-image: url(../../assets/img/homeHeroBgImgMobile.png);
+    height: 470px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .bgImg {
+    background-image: url(../../assets/img/homeHeroBgImgMobile.png);
+    height: 660px;
+  }
+}

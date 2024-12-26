@@ -1,0 +1,27 @@
+import React from "react";
+import styles from "./index.module.css";
+const Hero = () => {
+  return (
+    <div className={`${styles.bgImg} mt-[40px] relative sm:mt-[70px]`}>
+      <div className="max-w-[1440px] lg:m-auto ">
+        <div
+          className={`px-[16px] pt-[60px] relative lg:pt-[58px]   lg:pl-[149px]  `}
+        >
+          <div
+            className={`${styles.heroTextGradient} lg:w-[750px] xl:w-[800px] 
+           text-[28px] md:text-[36px] leading-[30px] md:leading-[42px] font-proxima-nova-bold`}
+          >
+           Tata Pay User Agreement
+          </div>
+        </div>
+        <img
+          src="/policy-hero.png"
+          alt=""
+          className=" absolute  right-[16px] lg:right-[150px]  bottom-[0px]  h-[138px]  w-[auto]"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Hero;

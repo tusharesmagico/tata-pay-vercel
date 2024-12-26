@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: Proxima_Nova_A;
+  src: url("../app/fonts/Mark_Simonson_-_Proxima_Nova_A.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Proxima_Nova_A_Medium;
+  src: url("./fonts/Mark\ Simonson\ -\ Proxima\ Nova\ A\ Medium.otf")
+    format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Proxima_Nova_A_Medium;
+  src: url("./fonts/Mark\ Simonson\ -\ Proxima\ Nova\ A\ Semibold.otf")
+    format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Proxima_Nova_A_Bold;
+  font-weight: 700;
+  src: url("./fonts/Mark_Simonson_-_Proxima_Nova_A_Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Proxima_Nova_A_Ex_Bold;
+  font-weight: 800;
+  src: url("./fonts/Mark_Simonson_-_Proxima_Nova_A_Extrabold.otf")
+    format("opentype");
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Proxima_Nova_A;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .font-proxima-nova {
+    font-family: Proxima_Nova_A;
+  }
+  .font-proxima-nova-medium {
+    font-family: Proxima_Nova_A_Medium;
+  }
+  .font-proxima-nova-semibold {
+    font-family: Proxima_Nova_A_Medium; /* Note: Ensure the correct font family */
+    font-weight: 600;
+  }
+  .font-proxima-nova-bold {
+    font-family: Proxima_Nova_A_Bold;
+    font-weight: 700;
+  }
+  .font-proxima-nova-extrabold {
+    font-family: Proxima_Nova_A_Ex_Bold;
+    font-weight: 800;
+  }
+}
